@@ -17,6 +17,7 @@ module.exports = {
       'upred':'#FF3B3F',
       'cardbg':'#F3F4FA',
       'correct':'#44B77B',
+      'gray':'#696969',
     },
   },
   plugins: [],

@@ -13,7 +13,7 @@ const Home = () => {
         <div className='flex flex-row justify-center'>
             <img src='./Frame.svg' className='h-10'></img>
         </div>
-        <div className='text-6xl text-upred font-Poppins font-bold bg-white rounded-full h-[30%] w-[70%] flex flex-col items-center justify-center'>
+        <div className='text-6xl text-upred font-Poppins font-bold bg-white rounded-full h-64 w-64 flex flex-col items-center justify-center'>
             Quiz
         </div>
         <button className='w-[85%] text-white font-Nunito font-bold bg-upred rounded-3xl py-2 text-2xl'>
