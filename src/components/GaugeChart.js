@@ -32,7 +32,7 @@ const GaugeChart = ({ value }) => {
           return gradient;
         },
         borderWidth: 0,
-        cutout: '85%', // Hollow center
+        cutout: '80%', // Hollow center
         rotation: -90, // Start at the top
         circumference: 180, // Half-circle
       },
@@ -93,17 +93,12 @@ const GaugeChart = ({ value }) => {
   }, [value]);
 
   return (
-    <div className="relative w-72 h-72">
+    <div className="relative w-[300px] h-[300px]">
       {/* Needle Canvas */}
       <canvas ref={needleRef} className="absolute inset-0" width="300" height="300" />
 
       {/* Doughnut Gauge */}
-      <Doughnut data={data} options={options} />
-
-      {/* Display the percentage in the center */}
-      <div className="absolute inset-0 flex flex-col justify-center items-center pt-20 pl-6 text-5xl font-bold">
-        {value}%
-      </div>
+      <Doughnut data={data} options={options} />      
     </div>
   );
 };

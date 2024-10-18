@@ -121,7 +121,7 @@ const Quiz = () => {
             ))}
           </div>
 
-          <button className='w-full mt-4 text-white font-Nunito font-bold bg-upred rounded-full py-4 text-xl' onClick={handleNext} disabled={!selectedOption}>Next</button>
+          <button className='fixed bottom-0 w-[80%] mt-4 text-white font-Nunito font-bold bg-upred rounded-full py-4 text-xl mb-4' onClick={handleNext} disabled={!selectedOption}>Next</button>
 
           </div>
       </div>
